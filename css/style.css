@@ -1,0 +1,38 @@
+body { padding-top: 70px; }
+.navbar-fixed-top {
+	z-index: 1 !important;
+}
+.navbar {
+	background-color: #6a646491;
+}
+
+.navbar-nav {
+	background-color: white;
+	text-align: center;
+}
+.navbar-brand,.navbar-toggle, li > a {
+	color: black !important;
+}
+hr {
+	margin: unset;
+	border: 2px solid #020202;
+}
+.main-container {
+	min-height: 100vh;
+}
+.page_title {
+	text-align: center;
+}
+.row {
+	box-sizing: border-box;
+}
+.row > .col-md-4{
+	border: 2px solid black;
+	height: 250px;
+	position: relative;
+	margin-bottom: 15px;
+	text-align: center;
+	overflow: hidden;
+    box-sizing: border-box;
+    margin: 5px;
+}
