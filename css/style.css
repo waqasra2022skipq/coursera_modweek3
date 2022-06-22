@@ -1,9 +1,14 @@
-body { padding-top: 70px; }
+body { 
+    padding-top: 70px;
+}
+* {
+    scroll-behavior: smooth;
+}
 .navbar-fixed-top {
 	z-index: 1 !important;
 }
 .navbar {
-	background-color: #6a646491;
+	background-color: #828282;
 }
 
 .navbar-nav {
@@ -23,16 +28,19 @@ hr {
 .page_title {
 	text-align: center;
 }
-.row {
-	box-sizing: border-box;
-}
+
 .row > .col-md-4{
-	border: 2px solid black;
-	height: 250px;
-	position: relative;
-	margin-bottom: 15px;
+    /* background-color: grey; */
 	text-align: center;
-	overflow: hidden;
     box-sizing: border-box;
-    margin: 5px;
+    padding: 3px;
+    color: black;
+    margin-bottom: 10px;
+}
+p.col-md-12 {
+    max-height: 200px;
+    overflow: hidden;
+}
+.back-to {
+    font-weight: bold;
 }
